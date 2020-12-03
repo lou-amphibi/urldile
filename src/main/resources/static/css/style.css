@@ -1,0 +1,40 @@
+body {
+    background: #ff5a14;
+}
+h1 {
+    color: #fff2d1;
+    font-size: 45px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #ffbd7b;
+}
+#linkForm {
+    font-family: 'Brush Script MT';
+    font-size: 55px;
+    color: #ffb013;
+}
+#responseForm {
+    margin-top: 20px;
+    font-size: 28px;
+    height: 30px;
+}
+#successResponse {
+    color: darkgreen;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff2d1;
+}
+#errorResponse {
+    color: firebrick;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff2d1;
+}
+#leftPalm {
+    float: left;
+    margin-top: -500px;
+}
+#rightPalm {
+    float: right;
+    margin-top: -500px;
+}
+.mirrorImage {
+    transform: scale(-1, 1);
+}
