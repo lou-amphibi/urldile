@@ -1,5 +1,5 @@
 # Urldile
-Link shortener with REST API.  
+Link shortener with REST API   
 https://urldile.herokuapp.com/ 
 
 #### Functionality:
