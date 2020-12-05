@@ -9,7 +9,7 @@ app.controller("UrldileController", function ($scope, $http) {
     $scope.submitLongUrl = function () {
         $http({
             method: "POST",
-            url: "http://localhost:8080/api/eatLink",
+            url: "https://urldile.herokuapp.com/api/eatLink",
             data: angular.toJson($scope.customerLink),
             headers: {
                 'Content-Type': 'application/json'
