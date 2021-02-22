@@ -61,8 +61,6 @@ public class DevouringLinkRestControllerIntegrationTest {
                 .content(asJsonString(customerLinkFromResponseBody)))
                 .andExpect(status().isOk())
                 .andExpect(content().json(asJsonString(savedCustomerLink)));
-
-        System.out.println(asJsonString(savedCustomerLink));
     }
 
     @Test
